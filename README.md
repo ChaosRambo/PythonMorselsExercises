@@ -1,2 +1,2 @@
 # PythonMorselsExercises
-Exercises form Python Morsels https://www.pythonmorsels.com
+Exercises from Python Morsels https://www.pythonmorsels.com

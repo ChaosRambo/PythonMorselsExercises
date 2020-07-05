@@ -2,7 +2,9 @@ import re
 
 
 def count_words(sentence):
-    sentence = re.sub(r'[^\w\s]', '', sentence)
+    print(sentence)
+    sentence = re.sub(r'[^a-zA-Z\d\s\']', '', sentence)
+    print(sentence)
     wordlist = sentence.split(' ')
     words = {}
     for i in wordlist:
@@ -15,4 +17,4 @@ def count_words(sentence):
 
 
 if __name__ == '__main__':
-    print(count_words("Oh what a day What a lovely day!"))
+    print(count_words("¿Te gust'a Python?"))
